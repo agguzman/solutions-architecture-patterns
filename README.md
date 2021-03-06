@@ -1,4 +1,4 @@
-# Solutions Architecture Patterns
+# Solution Architecture Patterns
 This repository contains solution architecture patterns which can be reused to build enterprise software systems. Some of these patterns are well established in the industry and some of them are evolving patterns while there is another set which is at conceptual level. 
 
 ## Vendor neutral architecture patterns
@@ -12,13 +12,15 @@ This repository contains solution architecture patterns which can be reused to b
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](vendor-neutral/Anti-Corruption-Layer-Pattern.md)
 
-- Ballerina sidecar pattern (New)
+- Ballerina sidecar pattern
 [Ballerina sidecar pattern](vendor-neutral/Ballerina-sidecar-pattern-microservices.md)
 
-- Centralized Identity and Access Management Pattern (New)
+- Centralized Identity and Access Management Pattern
 [Centralized Identity and Access Management Pattern](vendor-neutral/Centralized-Identity-Access-Management-Pattern.md)
 
-- Cloud Migration with Strangler Pattern (New)
+- Change Data Capture Pattern [Change Data Capture Pattern](vendor-neutral/Introduction-to-Change-Data-Capture.md)
+
+- Cloud Migration with Strangler Pattern
 [Cloud Migration with Strangler Pattern](vendor-neutral/Cloud-Migration-Strangler-Pattern.md)
 
 - Decentralized Enterprise Architecture pattern
@@ -30,10 +32,10 @@ This repository contains solution architecture patterns which can be reused to b
 - Enterprise Software Stack
 [Enterprise Software Stack](vendor-neutral/Enterprise-Software-Stack.md)
 
-- Event Driven Architecture Kafka Pattern (New)
+- Event Driven Architecture Kafka Pattern
 [Event Driven Architecture Kafka Pattern](vendor-neutral/Event-Driven-Architecture-Kafka-Pattern.md)
 
-- GraphQL enterprise architecture patterns (New)
+- GraphQL enterprise architecture patterns
 [GraphQL Pattern](vendor-neutral/GraphQL-Pattern.md)
 
 - Hybrid API Management pattern
@@ -54,36 +56,80 @@ This repository contains solution architecture patterns which can be reused to b
 - Micro architecture pattern
 [Micro Architecture Pattern](vendor-neutral/Micro-Architecture-Pattern.md)
 
-- Microservices with NATS messaging (New)
+- Microservices with NATS messaging
 [Microservices with NATS messaging](vendor-neutral/Microservices-with-NATS-messaging.md)
 
-- Microservices Security Pattern - Policy based (New)
+- Microservices Security Pattern - Policy based
 [Microservices Security Pattern - Policy based](vendor-neutral/Microservices-Security-Pattern-Policy-Based.md)
 
 - Multi Cloud Enterprise Deployment pattern
 [Multi Cloud Enterprise Deployment Pattern](vendor-neutral/Multi-Cloud-Enterprise-Deployment-Pattern.md)
 
+- OpenAPI Based Digital Transformation pattern
+[OpenAPI Based Digital Transformation Pattern](vendor-neutral/OpenAPI-Based-Digital-Transformation-Pattern.md)
+
+- SOA Governance to API Management Pattern
+[SOA Governance to API Management Pattern](vendor-neutral/SOA-governance-to-API-management-pattern.md)
+
+- Microservices Governance and API Management Pattern
+[Microservices Governance and API Management Pattern](vendor-neutral/Microservices-Governance-And-API-Management.md)
+
+
 ## Industry specific architecture patterns
 These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
 
-- Telecommunication Reference Architecture (New)
+- Telecommunication Reference Architecture
 [Telecommunication Reference Architecture](industry-specific/Telecommunication-reference-architecture-pattern.md)
 
-- Transportation Reference Architecture (New)
+- Transportation Reference Architecture
 [Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
 
-- Digital Health Platform Open Source Architecture (New)
+- Digital Health Platform Open Source Architecture
 [Digital Health Platform Open Source Architecture](industry-specific/Digital-Health-Platform-Open-Source-Architecture.md)
+
+- Hospitality Platform Reference Architecture
+[Hospitality Platform Reference Architecture](industry-specific/Hospitality-Platform-Reference-Architecture-WSO2.md)
+
+- Retail Platform Reference Architecture
+[Retail Platform Reference Architecture](industry-specific/future-retail-a-business-and-technical-architecture.md)
+
+- Higher Education Information Technology Architecture [Higher Education Information Technology Architecture](industry-specific/Higher-Education-Information-Technology-Architecture.md)
+
+- Energy industry Information Technology Reference Architecture [Energy industry Information Technology Reference Architecture](industry-specific/Energy-Information-Technology-Reference-Architecture.md)
+
+- Automotive industry Information Technology Reference Architecture [Automotive industry Information Technology Reference Architecture](industry-specific/Automotive-Industry-Information-Technology-Reference-Architecture.md)
 
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
-- [AWS](vendor-specific/aws)
-- [Azure](vendor-specific/azure)
-- [GCP](vendor-specific/gcp)
-- [Mulesoft](vendor-specific/mulesoft)
-- [Pivotal](vendor-specific/pivotal)
-- [RedHat](vendor-specific/redhat)
-- [WSO2](vendor-specific/wso2)
+- Amazon Web Services (AWS) [Amazon Web Services (AWS)](vendor-specific/aws)
 
+- Microsoft Azure [Microsoft Azure](vendor-specific/azure)
+
+- Google Cloud Platform (GCP)[Google Cloud Platform (GCP)](vendor-specific/gcp)
+
+- Mulesoft [Mulesoft](vendor-specific/mulesoft)
+
+- Pivotal [Pivotal](vendor-specific/pivotal)
+
+- RedHat [RedHat](vendor-specific/redhat)
+
+- WSO2 [WSO2](vendor-specific/wso2)
+
+## Technology selection guides
+- API Management platform selection guide [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
+- Integration platform selection guide [Integration platform selection guide](technology-selection-guides/Integration-Platform-selection-guide.md)
+
+# License details
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
